@@ -1,0 +1,109 @@
+.completed{
+    color:#AFE1AF;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+
+.button-box-special {
+    background: #383b3a;
+}
+
+button:focus {
+    outline: none;
+    display: inline-block;
+}
+
+/* Button Styles */
+.two {
+    width: 100px;
+    height: 20px;
+    padding: .5px;
+    font-size: 8px;
+    font-weight: 350;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+}
+
+.two {
+    background: #fff;
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    transition: background 500ms ease-out,
+                color 500ms ease-out,
+                border 500ms ease-out; 
+}
+
+.two:hover {
+    background: #E00462;
+    color: #fff;
+    border: none;
+}
+
+.one {
+    width: 100px;
+    padding: 2px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+}
+
+
+.one {
+    background: #fff;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    transition: background 200ms ease-out,
+                color 200ms ease-out,
+                border 200ms ease-out; 
+}
+
+.one:hover {
+    background: #AFE1AF ;
+    color: black;
+    border: none;
+}
+
+.three {
+    width: 100px;
+    height: 20px;
+    padding: .5px;
+    font-size: 8px;
+    font-weight: 350;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+}
+
+.three {
+    background: #fff;
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    transition: background 500ms ease-out,
+                color 500ms ease-out,
+                border 500ms ease-out; 
+}
+
+.three:hover {
+    background: #AFE1AF;
+    color: black;
+    border: none;
+}
